@@ -1,0 +1,74 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  color: #333;
+}
+header {
+  background: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+header img {
+  height: 48px;
+}
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.hero {
+  background: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+.hero p {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+.btn {
+  background: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+.feature {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+.form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 2rem;
+}
